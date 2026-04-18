@@ -202,10 +202,6 @@ for i in range(min(10, len(wrong))):
 plt.suptitle("Loše klasifikovane slike")
 plt.show()
 
-
-
-
-#MISLIM DA NE TREBA
 def transfer_learning(img_size, num_classes):
     base_model = MobileNetV2(
         input_shape=(img_size[0], img_size[1], 3),
